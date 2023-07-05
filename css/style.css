@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color: var(--clr);
+    --bg-light: #efefef;
+    --bg-dark: #707070;
+     --clr: #58BC82;
+    --clr-alpha: #9c9c9c60;
+}
+header{
+    
+}
+body{
+    background-color: rgb(23 23 23);
+    display: flex;
+    width: 100vw;
+  
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+label{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+input,
+textarea, 
+select{
+    background-color: var(--bg-dark);
+    width: 100%;
+    height: 50px;
+    margin: 5px auto;
+    border: 2px solid transparent;
+    border-radius: 10px;
+}
+option{
+    color:var(--bg-light);
+}
+#jobForm{
+    display: grid;
+    gap: 3vh;
+}
