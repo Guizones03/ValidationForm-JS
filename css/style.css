@@ -1,25 +1,25 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
-    color: var(--clr);
     --bg-light: #efefef;
     --bg-dark: #707070;
      --clr: #58BC82;
     --clr-alpha: #9c9c9c60;
-}
-header{
-    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;    
 }
 body{
-    background-color: rgb(23 23 23);
     display: flex;
     width: 100vw;
-  
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+#mainContent{
+    width: 50vw;
+    padding: 60px;
+    border-radius: 15px;
+    background-color: var(--clr-alpha);
 }
 label{
     font-size: 20px;
@@ -28,6 +28,10 @@ label{
 input,
 textarea, 
 select{
+    display: flex;
+    align-items: center;
+    color: var(--bg-light);
+    font-size: 20px;
     background-color: var(--bg-dark);
     width: 100%;
     height: 50px;
