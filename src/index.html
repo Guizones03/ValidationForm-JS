@@ -15,9 +15,9 @@
         <h1>Cadastro de clientes<br> ASZ Elétrica</h1>        
     </header>
     <section id="mainContent">
-        <form action="" id="jobForm">
+        <form autocomplete="off" action=https://sheetdb.io/api/v1/zogabcumw6tm3 method="post" name="AszElétrica-Clientes" id="jobForm">
             <div class="inputForm">
-                <input type="text" required="">
+                <input type="text" required="" name="data[Nome]" id="name">
                 <label>
                     <span style="transition-delay:0ms">N</span>
                     <span style="transition-delay:50ms">o</span>
@@ -26,7 +26,7 @@
                  </label>
             </div>
             <div class="inputForm">
-                <input type="email" required="">
+                <input autocomplete="nope" type="email" required="" name="data[Email]" id="email">
                 <label>
                     <span style="transition-delay:0ms">E</span>
                     <span style="transition-delay:50ms">m</span>
@@ -36,7 +36,7 @@
                  </label>
             </div>
             <div class="inputForm">
-                <input type="tel" required="">
+                <input autocomplete="off" type="tel" required="" name="data[Telefone]" id="tel">
                 <label>
                     <span style="transition-delay:0ms">T</span>
                     <span style="transition-delay:50ms">e</span>
@@ -49,7 +49,7 @@
                  </label>
             </div>
             <div class="inputForm">
-                <input type="value" required="">
+                <input autocomplete="nope" type="value" required="" name="data[Endereço]" id="adress">
                 <label>
                     <span style="transition-delay:0ms">E</span>
                     <span style="transition-delay:50ms">n</span>
@@ -62,7 +62,7 @@
                  </label>
             </div>
             <div class="inputForm">
-                <input type="text" required="">
+                <input type="text" required="" name="data[Veículo]" id="vehicle">
                 <label>
                     <span style="transition-delay:0ms">V</span>
                     <span style="transition-delay:50ms">e</span>
@@ -73,7 +73,7 @@
                     <span style="transition-delay:100ms">o</span>
                  </label>
             </div>
-            <button>
+            <button id="submitBtn" type="submit">
                 <div class="svg-wrapper-1">
                   <div class="svg-wrapper">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
@@ -85,6 +85,20 @@
                 <span>Enviar</span>
               </button> 
         </form>
+        <div id="confirm-poupup"> 
+            <h2>Asz Elétrica Informa - Deseja se cadastrar com os seguintes dados?</h2>
+            <p id="contentPoupup">
+                Nome:Guilherme<br>
+                Teleone:4198792929<br>
+                Endereço:HAHKJHKJHJKKLasksadh<br>
+                email:GHJGJgh@gmail.com<br>
+                Carro:Subaru Impreza
+            </p>
+            <div id="btnCard">
+            <button id="cancelBtn">Cancelar</button>
+            <button id="confirmBtn">Confirmar</button>
+            </div>
+        </div>
     </section>
 </body>
 </html>
