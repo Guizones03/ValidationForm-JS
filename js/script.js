@@ -1,9 +1,8 @@
 const form = document.querySelector('form')
-const name = document.getElementById('name')
+const nome = document.getElementById('name')
 const email = document.getElementById('email')
-const password = document.getElementById('password')
-const message = document.getElementById('message')
+const tel = document.getElementById('tel')
+const btnSubmit = document.querySelector('button')
 
-form.addEventListener("submit", (event) =>{
-    event.preventDefault()
-});
+
+btnSubmit.addEventListener('click', print)

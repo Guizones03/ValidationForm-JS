@@ -8,41 +8,83 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bevan&family=Open+Sans:ital,wght@0,400;0,800;1,500;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
-    <script src="../js/script.js" defer></script>
+    <script src="../js/script.js" defer ></script>
 </head>
 <body>
     <header>
-        <h1>Form Validation</h1>        
+        <h1>Cadastro de clientes<br> ASZ Elétrica</h1>        
     </header>
     <section id="mainContent">
         <form action="" id="jobForm">
             <div class="inputForm">
-                <label for="name">Name: </label>
-                <input type="text" name="name" id="name">
+                <input type="text" required="">
+                <label>
+                    <span style="transition-delay:0ms">N</span>
+                    <span style="transition-delay:50ms">o</span>
+                    <span style="transition-delay:100ms">m</span>
+                    <span style="transition-delay:100ms">e</span>
+                 </label>
             </div>
             <div class="inputForm">
-                <label for="email">Emali: </label>
-                <input type="email" name="email" id="email">
+                <input type="email" required="">
+                <label>
+                    <span style="transition-delay:0ms">E</span>
+                    <span style="transition-delay:50ms">m</span>
+                    <span style="transition-delay:100ms">a</span>
+                    <span style="transition-delay:100ms">i</span>
+                    <span style="transition-delay:100ms">l</span>
+                 </label>
             </div>
             <div class="inputForm">
-                <label for="password">Senha: </label>
-                <input type="password" name="password" id="password">
+                <input type="tel" required="">
+                <label>
+                    <span style="transition-delay:0ms">T</span>
+                    <span style="transition-delay:50ms">e</span>
+                    <span style="transition-delay:100ms">l</span>
+                    <span style="transition-delay:100ms">e</span>
+                    <span style="transition-delay:100ms">f</span>
+                    <span style="transition-delay:100ms">o</span>
+                    <span style="transition-delay:100ms">n</span>
+                    <span style="transition-delay:100ms">e</span>
+                 </label>
             </div>
             <div class="inputForm">
-                <label for="job">Situação de trabalho: </label>
-                <select name="job" id="job">
-                    <option value="search">Procurando emprego</option>
-                    <option value="worked">Trabalhando</option>
-                    <option value="vacation">Férias/Afastamento</option>
-                </select>
+                <input type="value" required="">
+                <label>
+                    <span style="transition-delay:0ms">E</span>
+                    <span style="transition-delay:50ms">n</span>
+                    <span style="transition-delay:100ms">d</span>
+                    <span style="transition-delay:100ms">e</span>
+                    <span style="transition-delay:100ms">r</span>
+                    <span style="transition-delay:100ms">e</span>
+                    <span style="transition-delay:100ms">ç</span>
+                    <span style="transition-delay:100ms">o</span>
+                 </label>
             </div>
             <div class="inputForm">
-                <label for="message">Mensagem:</label>
-                <textarea name="message" id="messagem" cols="30" rows="10"></textarea>
+                <input type="text" required="">
+                <label>
+                    <span style="transition-delay:0ms">V</span>
+                    <span style="transition-delay:50ms">e</span>
+                    <span style="transition-delay:100ms">í</span>
+                    <span style="transition-delay:100ms">c</span>
+                    <span style="transition-delay:100ms">u</span>
+                    <span style="transition-delay:100ms">l</span>
+                    <span style="transition-delay:100ms">o</span>
+                 </label>
             </div>
-            <button type="submit">Enviar</button>
-            
+            <button>
+                <div class="svg-wrapper-1">
+                  <div class="svg-wrapper">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                      <path fill="none" d="M0 0h24v24H0z"></path>
+                      <path fill="currentColor" d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"></path>
+                    </svg>
+                  </div>
+                </div>
+                <span>Enviar</span>
+              </button> 
         </form>
-    </section id="mainContent">
+    </section>
 </body>
 </html>
