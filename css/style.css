@@ -7,6 +7,9 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;    
 }
+.poupup{
+  opacity: 60%;
+}
 body{
     background-image: url("../public/background1.jpg");
     display: flex;
@@ -139,10 +142,14 @@ select{
     transform: rotate(45deg);
   }
   #confirm-poupup{
+    visibility: hidden;
+    position: absolute;
+    top: 30%;
+    left: 25%;
     padding: 5%;
     border-radius: 35px;
     width: 50vw;
-    height: 50vh;
+    height: 60vh;
     text-align: center;
     background-color: #ffffff;
     display: flex;
@@ -150,12 +157,18 @@ select{
     align-items:center;
     justify-content: center;
   }
+  #contentPoupup{
+    font-size: 18px;
+    margin-top: 5%;
+  }
  #btnCard{
     width: 60%;
     display: flex;
     justify-content: space-between;
+    margin-top: 5%;
  }
  #cancelBtn{
+ cursor: pointer;
     color: #fff; font-family: inherit;
     font-size: 18px;
     font-weight: bold;
@@ -183,7 +196,13 @@ select{
     border: none;
     border-radius: 25px;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
-    
-    
   }
+
+  #confirmBtn:hover{
+    transform: scale(1.1);
+  }
+ #cancelBtn:hover{
+  transform: scale(1.1);
+ }
+
   
